@@ -22,6 +22,11 @@ namespace ConsoleApplication2
 
         static void Paint()
         {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("                      +                        ");
+            Thread.Sleep(800);
+            Console.WriteLine("                     +++                       ");
+            Thread.Sleep(800);
             Console.WriteLine("                  +++++++++                    ");
             Thread.Sleep(800);
             Console.WriteLine("              ++++++++++++++++++               ");
@@ -31,6 +36,25 @@ namespace ConsoleApplication2
             Console.WriteLine("     ++++++++++++++++++++++++++++++++++++++    ");
             Thread.Sleep(800);
             Console.WriteLine("   +++++++++++++++++++++++++++++++++++++++++   ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Thread.Sleep(800);
+            Console.WriteLine("  |-----------------------------------------|  ");
+            Thread.Sleep(800);
+            Console.WriteLine("  |**__________*****************__________**|  ");
+            Thread.Sleep(800);                      
+            Console.WriteLine("  |**|        |*****************|        |**|  ");
+            Thread.Sleep(800);                      
+            Console.WriteLine("  |**|        |*****************|        |**|  ");
+            Thread.Sleep(800);                      
+            Console.WriteLine("  |**|        |*****************|        |**|  ");
+            Thread.Sleep(800);                      
+            Console.WriteLine("  |**|        |*****************|        |**|  ");
+            Thread.Sleep(800);                      
+            Console.WriteLine("  |**|________|*****************|________|**|  ");
+            Thread.Sleep(800);                      
+            Console.WriteLine("  |*****************************************|  ");
+            Thread.Sleep(800);                     
+            Console.WriteLine("  |*****************************************|  ");
             Thread.Sleep(800);
             Console.WriteLine("  |-----------------------------------------|  ");
             Thread.Sleep(800);
@@ -51,6 +75,11 @@ namespace ConsoleApplication2
             Console.WriteLine("  |*************|____________|**************|  ");
             Thread.Sleep(800);
             Console.WriteLine("  |-----------------------------------------|  ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Thread.Sleep(800);
+            Console.WriteLine("  |||||||||||||||||||||||||||||||||||||||||||  ");
+            Thread.Sleep(800);
+            Console.WriteLine("  |||||||||||||||||||||||||||||||||||||||||||  ");
 
         }
     }

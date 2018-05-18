@@ -41,6 +41,10 @@ namespace ConsoleApplication2.Modules
                         string day = random.Next(1, 32).ToString();
                         string month = random.Next(1, 13).ToString();
                         string year = random.Next(2017, 2019).ToString();
+                        if (int.Parse(month) < 10)
+                        {
+                            month = $"0{month}";
+                        }
                         string date = $"{day}-{month}-{year}";
                         DateTime enddate = DateTime.Parse(date).AddDays(random.Next(10,30));
                         DateTime validValue ;
